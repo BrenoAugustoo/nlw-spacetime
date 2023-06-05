@@ -31,7 +31,7 @@ app.register(jwt, {
 
 app
   .listen({
-    port: 3333,
+    port: 3337,
   })
   .then(() => {
     console.log('HTTP server running on port 3333')
